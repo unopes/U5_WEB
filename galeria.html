@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .sectionI {
+      display: flex;
+      content: center;
+      margin: 0 auto;
+      /* Establece márgenes automáticos */
+      width: 80%;
+      /* Ajusta el ancho según tu necesidad */
+      width: 1020px;
+      height: 500px;
+    }
+
+    section img {
+      width: 1px;
+      flex-grow: 1;
+      object-fit: cover;
+      transition: .5s ease;
+    }
+
+    section img:hover {
+      cursor: crosshair;
+      width: 300px;
+      opacity: 1;
+      filter: contrast(120%);
+    }
+
+    body {
+      background: linear-gradient(to bottom, white 60%, rgb(14, 12, 43));
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <img src="assets/cerebro.png" alt="" class="img-fluid" class="img d-none d-md-block img-logo">
+      <a class="navbar-brand" href="index.html">Mexíco Explora</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" id="inicio">
+            <a class="nav-link" href="index.html" onclick="closeNavbar()">Inicio</a>
+          </li>
+          <li class="nav-item" id="acercadenosotros">
+            <a class="nav-link" href="acercadenosotros.html" onclick="closeNavbar()">Acerca de nosotros</a>
+          </li>
+          <li class="nav-item" id="contacto">
+            <a class="nav-link" href="contacto.html" onclick="closeNavbar()">Contacto</a>
+          </li>
+          <li class="nav-item" id="galeria">
+            <a class="nav-link" href="galeria.html" onclick="closeNavbar()">Galeria</a>
+          </li>
+          <!-- Agrega aquí más elementos de navegación -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div style="height: 70px;"></div>
+  <!--aqui iniciala galeria 1_Sitios Arqueologicos -->
+
+  <div class="h1 container" style="text-align: center;">Lo mejor de nuestra historia</div>
+  <section class="sectionI shadow-lg p-3 bg-body-tertiary rounder col-12">
+    <img src="assets/sitios arqueologicos/ACUEDUCTO DE TEPOTZOTLÁN.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/CALAKMUL CAMPECHE.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/El  castillo pirámide de Chichen.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/La Fortaleza Santo Domingo.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/Monte Albán, Oaxaca.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/Observatorio del Palacio de Pale.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/Pirámide de Mayapán en Yucatán.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/Ruinas de Tulum.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/Templo de Los Frescos.jpg" alt="" class="img-fluid">
+    <img src="assets/sitios arqueologicos/Zona Arqueológica Palenque.jpg" alt="" class="img-fluid">
+  </section>
+  <hr>
+  <br>
+  <!------------------------------------------------------------------------- -->
+  <!--aqui iniciala galeria 2_playas -->
+  <div class="h1 container" style="text-align: center;">Nada como un descanso a la orilla del mar</div>
+  <section class="sectionI shadow-lg p-3 bg-body-tertiary rounder col-12">
+    <img src="assets/playas/Bacalar, Quintana Roo, Mexico.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/Cabo San Lucas, B.C.S., Mexico.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/Cancún, Q.R., Mexico.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/Crucecita, Oax., México.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/Oaxaca de Juárez, Oax., México.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/Playa del Carmen, Q.R., México.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/Puerto Vallarta, Jal., México.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/San Felipe, Yuc., México.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/San Francisco, Nay., México.jpg" alt="" class="img-fluid">
+    <img src="assets/playas/Tulum, Q.R., Mexico.jpg" alt="" class="img-fluid">
+  </section>
+  <hr>
+  <br>
+  <!------------------------------------------------------------------------- -->
+  <!--aqui iniciala galeria 3_festividades y cultura -->
+  <div class="h1 container" style="text-align: center;">Conoce Nuestra cultura</div>
+  <section class="sectionI shadow-lg p-3 bg-body-tertiary rounder col-12">
+    <img src="assets/festividades y tradiciones/basilica de guadalupe.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Carnaval de Veracruz.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Día de la Independencia.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Día de los Reyes Magos.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Día de Muertos.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Feria de San Marcos.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/La Guelaguetza.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Posadas.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Semana santa.jpg" alt="" class="img-fluid">
+    <img src="assets/festividades y tradiciones/Voladores de Papantla.jpg" alt="" class="img-fluid">
+  </section>
+  <hr>
+  <!------------------------------------------------------------------------- -->
+
+  <!--aqui iniciala galeria 4_ecoturismo -->
+  <div class="h1 container" style="text-align: center;">La aventura nos espera</div>
+  <section class="sectionI shadow-lg p-3 bg-body-tertiary rounder col-12">
+    <img src="assets/Ecoturismo/Bosque de la Cañada.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Campamento Ciénega.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/cascada Sierra del Tentzo mexico.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Nevado de Toluca Travesía Laguna.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Reserva de la Biosfera Sierra Go.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Río Actopan.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Santuario de las Guacamayas Verd.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Senderismo Iztaccíhuatl.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Sierra Mágica.jpg" alt="" class="img-fluid">
+    <img src="assets/Ecoturismo/Xilitla, San Luis Potosí.jpg" alt="" class="img-fluid">
+  </section>
+  <hr>
+  <!------------------------------------------------------------------------- -->
+
+  <!--aqui iniciala galeria 5_gastronomia -->
+  <div class="h1 container" style="text-align: center;">Ven a probar nuestra rica gastronomia</div>
+  <section class="sectionI shadow-lg p-3 bg-body-tertiary rounder col-12">
+    <img src="assets/gastronomia/barbacoa.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/chiles en nogada.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/enchiladas.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/Guacamole.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/Mole.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/Pambazos.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/Pozole.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/sopes.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/Tacos de camaron.jpg" alt="" class="img-fluid">
+    <img src="assets/gastronomia/tamales.jpg" alt="" class="img-fluid">
+  </section>
+  <hr>
+  <!------------------------------------------------------------------------- -->
+
+  <!--aqui iniciala galeria 6_biodiversidad -->
+  <div class="h1 container" style="text-align: center;">Conoce nuestra gran biodiversidad</div>
+  <section class="sectionI shadow-lg p-3 bg-body-tertiary rounder col-12">
+    <img src="assets/biodivercidad/Ajolote.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/Cacomixtle.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/Cempasúchil.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/Jaguar.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/Lobo mexicano.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/maiz.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/mariposa Monarca.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/nochebuena.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/Quetzal.jpg" alt="" class="img-fluid">
+    <img src="assets/biodivercidad/Águila real.jpg" alt="" class="img-fluid">
+  </section>
+  <hr>
+  <!------------------------------------------------------------------------- -->
+
+  <!--aqui iniciala galeria 7_pueblos magicos -->
+  <div class="h1 container" style="text-align: center; color: white;">Visita nuestros pueblos magicos</div>
+  <section class="sectionI shadow-lg p-3 bg-body-tertiary rounder col-12">
+    <img src="assets/pueblos magicos/CUETZALÁN - _(SIERRA NORTE DE PU.jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/cuitzeo.jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/mineral de posos.jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/Peña de Bernal Queretaro (1).jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/Real del Monte, Hidalgo, México (1).jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/san cristobal de las casas.jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/San Miguel de Allende, Gto., Mex.jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/tequila,jalisco.jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/Tequisquiapan, Queretaro.jpg" alt="" class="img-fluid">
+    <img src="assets/pueblos magicos/zacatecas.jpg" alt="" class="img-fluid">
+  </section>
+  <hr>
+  <!------------------------------------------------------------------------- -->
+
+  <footer class="text-center mt-5 shadow-lg p-3 rounder bg-dark">
+    <div style="color: white;">No olvides seguirnos en todas nuestras redes sociales</div>
+    <div class="container p-4 pb-0">
+      <section>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333" href="#!"
+          role="button"><i class="fab fa-facebook-f"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+          </svg>
+        </a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!"
+          role="button"><i class="fab fa-instagram"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+          </svg>
+        </a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!"
+          role="button"><i class="fab fa-linkedin-in"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok"
+            viewBox="0 0 16 16">
+            <path
+              d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+          </svg>
+        </a>
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!"
+          role="button"><i class="fab fa-github"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+          </svg>
+        </a>
+      </section>
+    </div>
+    <div class="text-center" style="color: white;">
+      © 2020 Copyright: MexícoExplora.com
+    </div>
+  </footer>
+
+  <script>
+    function closeNavbar() {
+      $('.navbar-collapse').collapse('hide');
+    }
+
+    // Obtener el nombre de la página actual
+    var paginaActual = location.pathname.split("/").pop();
+
+    // Obtener los elementos de navegación
+    var elementosNav = document.querySelectorAll('.navbar-nav .nav-item');
+
+    // Iterar sobre los elementos de navegación y agregar la clase activa al elemento correspondiente
+    elementosNav.forEach(function (elemento) {
+      var enlace = elemento.querySelector('a').getAttribute('href');
+      if (enlace === paginaActual) {
+        elemento.classList.add('active');
+      }
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
